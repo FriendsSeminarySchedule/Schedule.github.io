@@ -87,8 +87,8 @@
 <a href="Annex A51.html">Annex A51</a>
 <a href="Annex A52.html">Annex A52</a>
 <a href="Annex MCCTH.html">Annex MCCTH</a>
-<a href="Central Building B16.html">Central Building 400</a>
-<a href="Central Building B16.html">Central Building 400</a>
+<a href="Central Building 400.html">Central Building 400</a>
+<a href="Central Building B16.html">Central Building B16</a>
 <a href="Central Building CAFE.html">Central Building CAFE</a>
 <a href="Central Building CR.html">Central Building CR</a>
 <a href="Central Building LOFT.html">Central Building LOFT</a>
@@ -208,6 +208,14 @@ window.onclick = function(event) {
     -Resource is used to correspond the event to the proper day on the schedule. Resource R1 corresponds to Day 1, Resource R2 corresponds to Day 2, Resource R3 corresponds to Day 3, and so on... */
   
     {
+      id: "US Advisory 10",
+      start: DayPilot.Date.today().addHours(9.30),
+      end: DayPilot.Date.today().addHours(9.55),
+      text: "<h4><b>US Advisory 12 - Hall (ADV)</b></h4>Coleman Hall <br>9:30 AM - 9:55 AM",
+      resource: "R3",
+    },
+      
+    {
       id: "US Advisory 11",
       start: DayPilot.Date.today().addHours(9.30),
       end: DayPilot.Date.today().addHours(9.55),
@@ -219,16 +227,32 @@ window.onclick = function(event) {
       id: "US Advisory 11",
       start: DayPilot.Date.today().addHours(9.30),
       end: DayPilot.Date.today().addHours(9.55),
+      text: "<h3><b>US Advisory 11 - Fairey</b></h3>Kristen Fairey<br>9:30 AM - 9:55 AM",
+      resource: "R3",
+    },
+      
+    {
+      id: "US Advisory 10",
+      start: DayPilot.Date.today().addHours(9.30),
+      end: DayPilot.Date.today().addHours(9.55),
+      text: "<h4><b>US Advisory 12 - Hall (ADV)</b></h4>Coleman Hall <br>9:30 AM - 9:55 AM",
+      resource: "R7",
+    },
+      
+    {
+      id: "US Advisory 11",
+      start: DayPilot.Date.today().addHours(9.30),
+      end: DayPilot.Date.today().addHours(9.55),
       text: "<h4><b>US Advisory 12 - Goren (ADV)</b></h4>Joshua Goren <br>9:30 AM - 9:55 AM",
       resource: "R7",
     },
       
     {
-      id: "Library Supervision 7 (5/6 B)",
-      start: DayPilot.Date.today().addHours(9.25),
-      end: DayPilot.Date.today().addHours(10.25),
-      text: "<h3><b>Library Supervision 7 (5/6 B)</b></h3>Steve Browka<br>9:25 AM - 10:25 AM",
-      resource: "R4",
+      id: "US Advisory 11",
+      start: DayPilot.Date.today().addHours(9.30),
+      end: DayPilot.Date.today().addHours(9.55),
+      text: "<h3><b>US Advisory 11 - Fairey</b></h3>Kristen Fairey<br>9:30 AM - 9:55 AM",
+      resource: "R7",
     },
       
   ];
