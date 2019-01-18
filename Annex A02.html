@@ -11,9 +11,9 @@
 </head>
 <body>
 <div class="header">
-  <h1>Room Schedules</h1>
+  <h1 style="font-weight: 100";>Room Schedules</h1>
   <div><h2>Please select the name of the room from the dropdown menu below to view a schedule.</h2></div>
-<div>Note: Upper School classes are highlighted in red, and Middle School classes are highlighted in green. The times on the left correspond with the block of the same color. When viewing on smaller screen sizes, you may need to scroll horizontally to see the full table.</div>
+    <div>Note: Upper School classes are highlighted in <b style= "color: #D7282F";>red</b>, and Middle School classes are highlighted in <b style= "color: seagreen";>green</b>. The times on the left correspond with the block of the same color. When viewing on smaller screen sizes, you may need to scroll horizontally to see the full table.</div>
 <div class="dropdown">
 <button onclick="myFunction()" class="dropbtn">Please select a name. ↓	</button>
   <div id="myDropdown" class="dropdown-content">
@@ -69,6 +69,7 @@
 <a href="Hunter Hall 606.html">Hunter Hall 606</a>
 <a href="Hunter Hall 607.html">Hunter Hall 607</a>
 <a href="Hunter Hall 608.html">Hunter Hall 608</a>
+<a href="Hunter Hall AC.html">Hunter Hall AC</a>
 <a href="Hunter Hall GYM 1.html">Hunter Hall GYM 1</a>
 <a href="Hunter Hall GYM 2.html">Hunter Hall GYM 2</a>
 <a href="Hunter Hall LIB.html">Hunter Hall LIB</a>
@@ -157,7 +158,7 @@ window.onclick = function(event) {
       id: "Physics IA 754-1",
       start: DayPilot.Date.today().addHours(10.25),
       end: DayPilot.Date.today().addHours(11.35),
-      text: "<h4><b>Physics IA 754-1 (A)</b></h4> <br> John Garnevicus <br>10:25 AM - 11:35 AM",
+      text: "<h4><b>Physics IA 754-1 (A)</b></h4> John Garnevicus <br>10:25 AM - 11:35 AM",
       resource: "R7",
     },
       
@@ -165,7 +166,7 @@ window.onclick = function(event) {
       id: "Physics IA 754-1",
       start: DayPilot.Date.today().addHours(11.45),
       end: DayPilot.Date.today().addHours(12.55),
-      text: "<h4><b>Physics IA 754-1 (A)</b></h4> <br> John Garnevicus <br>11:45 AM - 12:55 PM",
+      text: "<h4><b>Physics IA 754-1 (A)</b></h4> John Garnevicus <br>11:45 AM - 12:55 PM",
       resource: "R5",
     },
 
@@ -173,7 +174,7 @@ window.onclick = function(event) {
       id: "Physics IA 754-1",
       start: DayPilot.Date.today().addHours(14.00),
       end: DayPilot.Date.today().addHours(15.10),
-      text: "<h4><b>Physics IA 754-1 (A)</b></h4> <br> John Garnevicus <br>2:00 PM - 3:10 PM",
+      text: "<h4><b>Physics IA 754-1 (A)</b></h4> John Garnevicus <br>2:00 PM - 3:10 PM",
       resource: "R3",
     },
       
@@ -181,7 +182,7 @@ window.onclick = function(event) {
       id: "Physics IA 754-3",
       start: DayPilot.Date.today().addHours(8.15),
       end: DayPilot.Date.today().addHours(9.25),
-      text: "<h4><b>Physics IA 754-3 (E)</b></h4> <br> John Garnevicus <br>8:15 AM - 9:25 AM",
+      text: "<h4><b>Physics IA 754-3 (E)</b></h4> John Garnevicus <br>8:15 AM - 9:25 AM",
       resource: "R2",
     },
       
@@ -189,7 +190,7 @@ window.onclick = function(event) {
       id: "Physics IA 754-3",
       start: DayPilot.Date.today().addHours(10.25),
       end: DayPilot.Date.today().addHours(11.35),
-      text: "<h4><b>Physics IA 754-3 (E)</b></h4> <br> John Garnevicus <br>10:25 AM - 11:35 AM",
+      text: "<h4><b>Physics IA 754-3 (E)</b></h4> John Garnevicus <br>10:25 AM - 11:35 AM",
       resource: "R8",
     },
       
@@ -197,7 +198,7 @@ window.onclick = function(event) {
       id: "Physics IA 754-3",
       start: DayPilot.Date.today().addHours(14.00),
       end: DayPilot.Date.today().addHours(15.10),
-      text: "<h4><b>Physics IA 754-3 (E)</b></h4> <br> John Garnevicus <br>2:00 PM - 3:10 PM",
+      text: "<h4><b>Physics IA 754-3 (E)</b></h4> John Garnevicus <br>2:00 PM - 3:10 PM",
       resource: "R4",
     },
    
@@ -205,7 +206,7 @@ window.onclick = function(event) {
       id: "Physics IA 754-3",
       start: DayPilot.Date.today().addHours(11.45),
       end: DayPilot.Date.today().addHours(12.55),
-      text: "<h4><b>Physics IA 754-3 (E)</b></h4> <br> John Garnevicus <br>11:45 AM - 12:55 PM",
+      text: "<h4><b>Physics IA 754-3 (E)</b></h4> John Garnevicus <br>11:45 AM - 12:55 PM",
       resource: "R6",
     },
       
@@ -213,7 +214,7 @@ window.onclick = function(event) {
       id: "Physics IA 756-1",
       start: DayPilot.Date.today().addHours(8.15),
       end: DayPilot.Date.today().addHours(9.25),
-      text: "<h4><b>Physics IA 756-1 (B)</b></h4> <br> Alexander Lavy <br>8:15 AM - 9:25 AM",
+      text: "<h4><b>Physics IA 756-1 (B)</b></h4> Alexander Lavy <br>8:15 AM - 9:25 AM",
       resource: "R3",
     },
       
@@ -221,7 +222,7 @@ window.onclick = function(event) {
       id: "Physics IA 756-1",
       start: DayPilot.Date.today().addHours(10.25),
       end: DayPilot.Date.today().addHours(11.35),
-      text: "<h4><b>Physics IA 756-1 (B)</b></h4> <br> Alexander Lavy <br>10:25 AM - 11:35 AM",
+      text: "<h4><b>Physics IA 756-1 (B)</b></h4> Alexander Lavy <br>10:25 AM - 11:35 AM",
       resource: "R1",
     },
       
@@ -229,7 +230,7 @@ window.onclick = function(event) {
       id: "Physics IA 756-1",
       start: DayPilot.Date.today().addHours(11.45),
       end: DayPilot.Date.today().addHours(12.55),
-      text: "<h4><b>Physics IA 756-1 (B)</b></h4> <br> Alexander Lavy <br>11:45 AM - 12:55 PM",
+      text: "<h4><b>Physics IA 756-1 (B)</b></h4> Alexander Lavy <br>11:45 AM - 12:55 PM",
       resource: "R7",
     },
       
@@ -237,7 +238,7 @@ window.onclick = function(event) {
     id: "Physics IA 756-1",
       start: DayPilot.Date.today().addHours(14.00),
       end: DayPilot.Date.today().addHours(15.10),
-      text: "<h4><b>Physics IA 756-1 (B)</b></h4> <br> Alexander Lavy <br>2:00 PM - 3:10 PM",
+      text: "<h4><b>Physics IA 756-1 (B)</b></h4> Alexander Lavy <br>2:00 PM - 3:10 PM",
       resource: "R5",
     },
       
@@ -245,7 +246,7 @@ window.onclick = function(event) {
       id: "AP Physics 758-1",
       start: DayPilot.Date.today().addHours(8.15),
       end: DayPilot.Date.today().addHours(9.25),
-      text: "<h4><b>AP Physics 758-1 (F)</b></h4> <br> John Garnevicus <br>8:15 AM - 9:25 AM",
+      text: "<h4><b>AP Physics 758-1 (F)</b></h4> John Garnevicus <br>8:15 AM - 9:25 AM",
       resource: "R4",
     },
       
@@ -253,7 +254,7 @@ window.onclick = function(event) {
       id: "AP Physics 758-1",
       start: DayPilot.Date.today().addHours(10.25),
       end: DayPilot.Date.today().addHours(11.35),
-      text: "<h4><b>AP Physics 758-1 (F)</b></h4> <br> John Garnevicus <br>10:25 AM - 11:35 AM",
+      text: "<h4><b>AP Physics 758-1 (F)</b></h4> John Garnevicus <br>10:25 AM - 11:35 AM",
       resource: "R2",
     },
       
@@ -261,7 +262,7 @@ window.onclick = function(event) {
       id: "Physics IA 754-2",
       start: DayPilot.Date.today().addHours(8.15),
       end: DayPilot.Date.today().addHours(9.25),
-      text: "<h4><b>Physics IA 754-2 (C)</b></h4> <br> Alexander Lavy <br>8:15 AM - 9:25 AM",
+      text: "<h4><b>Physics IA 754-2 (C)</b></h4> Alexander Lavy <br>8:15 AM - 9:25 AM",
       resource: "R5",
     },
       
@@ -269,7 +270,7 @@ window.onclick = function(event) {
       id: "Physics IA 754-2",
       start: DayPilot.Date.today().addHours(10.25),
       end: DayPilot.Date.today().addHours(11.35),
-      text: "<h4><b>Physics IA 754-2 (C)</b></h4> <br> Alexander Lavy <br>10:25 AM - 11:35 AM",
+      text: "<h4><b>Physics IA 754-2 (C)</b></h4> Alexander Lavy <br>10:25 AM - 11:35 AM",
       resource: "R3",
     },
 
@@ -277,7 +278,7 @@ window.onclick = function(event) {
       id: "Physics IA 754-2",
       start: DayPilot.Date.today().addHours(11.45),
       end: DayPilot.Date.today().addHours(12.55),
-      text: "<h4><b>Physics IA 754-2 (C)</b></h4> <br> Alexander Lavy <br>11:45 AM - 12:55 PM",
+      text: "<h4><b>Physics IA 754-2 (C)</b></h4> Alexander Lavy <br>11:45 AM - 12:55 PM",
       resource: "R1",
     },
       
@@ -285,7 +286,7 @@ window.onclick = function(event) {
       id: "Physics IA 754-2",
       start: DayPilot.Date.today().addHours(14.00),
       end: DayPilot.Date.today().addHours(15.10),
-      text: "<h4><b>Physics IA 754-2 (C)</b></h4> <br> Alexander Lavy <br>2:00 PM - 3:10 PM",
+      text: "<h4><b>Physics IA 754-2 (C)</b></h4> Alexander Lavy <br>2:00 PM - 3:10 PM",
       resource: "R7",
     },
       
@@ -293,7 +294,7 @@ window.onclick = function(event) {
       id: "Physics IA 756-2",
       start: DayPilot.Date.today().addHours(8.15),
       end: DayPilot.Date.today().addHours(9.25),
-      text: "<h4><b>Physics IA 756-2 (G)</b></h4> <br> Alexander Lavy <br>8:15 AM - 9:25 AM",
+      text: "<h4><b>Physics IA 756-2 (G)</b></h4> Alexander Lavy <br>8:15 AM - 9:25 AM",
       resource: "R6",
     },
       
@@ -301,7 +302,7 @@ window.onclick = function(event) {
       id: "Physics IA 756-2",
       start: DayPilot.Date.today().addHours(10.25),
       end: DayPilot.Date.today().addHours(11.35),
-      text: "<h4><b>Physics IA 756-2 (G)</b></h4> <br> Alexander Lavy <br>10:25 AM - 11:35 AM",
+      text: "<h4><b>Physics IA 756-2 (G)</b></h4> Alexander Lavy <br>10:25 AM - 11:35 AM",
       resource: "R4",
     },
       
@@ -309,7 +310,7 @@ window.onclick = function(event) {
       id: "Physics IA 756-2",
       start: DayPilot.Date.today().addHours(11.45),
       end: DayPilot.Date.today().addHours(12.55),
-      text: "<h4><b>Physics IA 756-2 (G)</b></h4> <br> Alexander Lavy <br>11:45 AM - 12:55 PM",
+      text: "<h4><b>Physics IA 756-2 (G)</b></h4> Alexander Lavy <br>11:45 AM - 12:55 PM",
       resource: "R2",
     },
       
@@ -317,7 +318,7 @@ window.onclick = function(event) {
       id: "Physics IA 756-2",
       start: DayPilot.Date.today().addHours(14.00),
       end: DayPilot.Date.today().addHours(15.20),
-      text: "<h4><b>Physics IA 756-2 (G)</b></h4> <br> Alexander Lavy <br>2:00 PM - 3:10 PM",
+      text: "<h4><b>Physics IA 756-2 (G)</b></h4> Alexander Lavy <br>2:00 PM - 3:10 PM",
       resource: "R8",
     },
       
@@ -325,7 +326,7 @@ window.onclick = function(event) {
       id: "Astronomy: The Sky & the Solar System 791-1",
       start: DayPilot.Date.today().addHours(8.15),
       end: DayPilot.Date.today().addHours(9.25),
-      text: "<h4><b>Astronomy: The Sky & the Solar System 791-1 (D)</b></h4> <br> John Garnevicus <br>8:15 AM - 9:25 AM",
+      text: "<h4><b>Astronomy: The Sky & the Solar System 791-1 (D)</b></h4> John Garnevicus <br>8:15 AM - 9:25 AM",
       resource: "R7",
     },
       
@@ -333,7 +334,7 @@ window.onclick = function(event) {
       id: "Astronomy: The Sky & the Solar System 791-1",
       start: DayPilot.Date.today().addHours(10.25),
       end: DayPilot.Date.today().addHours(11.35),
-      text: "<h4><b>Astronomy: The Sky & the Solar System 791-1 (D)</b></h4> <br> John Garnevicus <br>8:15 AM - 9:25 AM",
+      text: "<h4><b>Astronomy: The Sky & the Solar System 791-1 (D)</b></h4> John Garnevicus <br>8:15 AM - 9:25 AM",
       resource: "R5",
     },
       
@@ -341,7 +342,7 @@ window.onclick = function(event) {
       id: "Astronomy: The Sky & the Solar System 791-1",
       start: DayPilot.Date.today().addHours(11.45),
       end: DayPilot.Date.today().addHours(12.55),
-      text: "<h4><b>Astronomy: The Sky & the Solar System 791-1 (D)</b></h4> <br> John Garnevicus <br>11:45 AM - 12:55 PM",
+      text: "<h4><b>Astronomy: The Sky & the Solar System 791-1 (D)</b></h4> John Garnevicus <br>11:45 AM - 12:55 PM",
       resource: "R3",
     },
       
@@ -349,7 +350,7 @@ window.onclick = function(event) {
       id: "Astronomy: The Sky & the Solar System 791-1",
       start: DayPilot.Date.today().addHours(14.00),
       end: DayPilot.Date.today().addHours(15.10),
-      text: "<h4><b>Astronomy: The Sky & the Solar System 791-1 (D)</b></h4> <br> John Garnevicus <br>2:00 PM - 3:10 PM",
+      text: "<h4><b>Astronomy: The Sky & the Solar System 791-1 (D)</b></h4> John Garnevicus <br>2:00 PM - 3:10 PM",
       resource: "R1",
     },
   
@@ -357,7 +358,7 @@ window.onclick = function(event) {
       id: "US Advisory 9",
       start: DayPilot.Date.today().addHours(9.30),
       end: DayPilot.Date.today().addHours(9.55),
-      text: "<h4><b>US Advisory 9 - Gavernicus (ADV)</b></h4> <br> John Garnevicus <br>9:30 AM - 9:55 AM",
+      text: "<h4><b>US Advisory 9 - Gavernicus (ADV)</b></h4> John Garnevicus <br>9:30 AM - 9:55 AM",
       resource: "R3",
     },
       
@@ -365,7 +366,7 @@ window.onclick = function(event) {
       id: "US Advisory 9",
       start: DayPilot.Date.today().addHours(9.30),
       end: DayPilot.Date.today().addHours(9.55),
-      text: "<h4><b>US Advisory 9 - Gavernicus (ADV)</b></h4> <br> John Garnevicus <br>9:30 AM - 9:55 AM",
+      text: "<h4><b>US Advisory 9 - Gavernicus (ADV)</b></h4> John Garnevicus <br>9:30 AM - 9:55 AM",
       resource: "R7",
     },
       
@@ -373,7 +374,7 @@ window.onclick = function(event) {
       id: "Health & Wellness 810 H&W-2",
       start: DayPilot.Date.today().addHours(10.25),
       end: DayPilot.Date.today().addHours(11.35),
-      text: "<h4><b>Health & Wellness 810 H&W-2 (H)</b></h4> <br> Catherine Guerriere <br>10:25 AM - 11:35 AM",
+      text: "<h4><b>Health & Wellness 810 H&W-2 (H)</b></h4> Catherine Guerriere <br>10:25 AM - 11:35 AM",
       resource: "R6",
     },
       
@@ -381,7 +382,7 @@ window.onclick = function(event) {
       id: "Health & Wellness 810 H&W-2",
       start: DayPilot.Date.today().addHours(14.00),
       end: DayPilot.Date.today().addHours(15.10),
-      text: "<h4><b>Health & Wellness 810 H&W-2 (H)</b></h4> <br> Catherine Guerriere <br>2:00 PM - 3:10 PM",
+      text: "<h4><b>Health & Wellness 810 H&W-2 (H)</b></h4> Catherine Guerriere <br>2:00 PM - 3:10 PM",
       resource: "R2",
     },
       
@@ -389,7 +390,7 @@ window.onclick = function(event) {
       id: "AP Physics 758-1",
       start: DayPilot.Date.today().addHours(11.45),
       end: DayPilot.Date.today().addHours(12.55),
-      text: "<h4><b>AP Physics 758-1 (F)</b></h4> <br> John garnevicus <br>11:45 AM - 12:55 PM",
+      text: "<h4><b>AP Physics 758-1 (F)</b></h4> John garnevicus <br>11:45 AM - 12:55 PM",
       resource: "R8",
     },
       
@@ -397,7 +398,7 @@ window.onclick = function(event) {
       id: "AP Physics 758-1",
       start: DayPilot.Date.today().addHours(14.00),
       end: DayPilot.Date.today().addHours(15.10),
-      text: "<h4><b>AP Physics 758-1 (F)</b></h4> <br> John garnevicus <br>2:00 PM - 3:10 PM",
+      text: "<h4><b>AP Physics 758-1 (F)</b></h4> John garnevicus <br>2:00 PM - 3:10 PM",
       resource: "R6",
     },
       
@@ -405,7 +406,7 @@ window.onclick = function(event) {
       id: "Advisory 8 (ADV)",
       start: DayPilot.Date.today().addHours(13.25),
       end: DayPilot.Date.today().addHours(14.05),
-      text: "<h4><b>Advisory 8 (ADV) (B)</b></h4> <br> Catherine Guerriere <br>1:25 PM - 2:05 PM",
+      text: "<h4><b>Advisory 8 (ADV) (B)</b></h4> Catherine Guerriere <br>1:25 PM - 2:05 PM",
       resource: "R2",
     }
       
