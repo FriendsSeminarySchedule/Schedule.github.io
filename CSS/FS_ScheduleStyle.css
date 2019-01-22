@@ -56,4 +56,9 @@
 .dropdown a:hover {background-color: #4E8CEF;}
 
 .show {display: block;}
+
+.roomname {
+    text-align: center;
+    font-family: "arial";
+}
   </style>
