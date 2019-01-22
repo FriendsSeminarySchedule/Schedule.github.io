@@ -14,7 +14,11 @@
 <div class="header">
   <h1 style="font-weight: 100";>Room Schedules</h1>
   <div><h2>Please select the name of the room from the dropdown menu below to view a schedule.</h2></div>
-    <div>Note: Upper School classes are highlighted in <b style= "color: #D7282F";>red</b>, and Middle School classes are highlighted in <b style= "color: seagreen";>green</b>.   When viewing on smaller screen sizes, you may need to scroll horizontally to see the full table.</div>
+    <div>Note: Upper School classes are highlighted in <b style= "color: #D7282F";>red</b>, and Middle School classes are highlighted in <b style= "color: seagreen";>green</b>.   When viewing on smaller screen sizes, you may need to scroll horizontally to see the full table.
+        <br><br>
+Click <a href="https://docs.google.com/spreadsheets/d/1Q5j2d6k-Ptl3IvCiioJoi5FRgPWSVbvXcdM8ToyS4x8/edit#gid=456950412" target="_blank">here</a> to view PE schedules (Gym, Common Room, Dance Studio).<br>
+Click <a href="https://docs.google.com/spreadsheets/d/1ACHCfCwir29Brtak8UGH-A75H2JzcUxoQssFTfn9Vjw/edit#gid=1387839577" target="_blank">here</a> to view LS Specialist rooms (Shop, Studio 2, Studio 4, Room 3, Loft, 309, 308).<br>
+Click <a href="https://docs.google.com/spreadsheets/d/1pu0wJkh9vQFi8eN0R97ds0_w5OiJG31PmY5aIUTLcNg/edit#gid=1893613469" target="_blank">here</a> to see LS Homeroom schedules.<br><br></div>
 
 <!--Dropdown Menu Begin
 -->
@@ -73,6 +77,7 @@
 <a href="Hunter Hall 606.html">Hunter Hall 606</a>
 <a href="Hunter Hall 607.html">Hunter Hall 607</a>
 <a href="Hunter Hall 608.html">Hunter Hall 608</a>
+<a href="Hunter Hall AC.html">Hunter Hall AC</a>
 <a href="Hunter Hall GYM 1.html">Hunter Hall GYM 1</a>
 <a href="Hunter Hall GYM 2.html">Hunter Hall GYM 2</a>
 <a href="Hunter Hall LIB.html">Hunter Hall LIB</a>
@@ -156,7 +161,7 @@ window.onclick = function(event) {
     (eg. 8.15 NOT 8:15).
     -use <h4> for US classes and <h3> for middle school classes. This code highlights course name in either red or green depending on the school level.
     -Resource is used to correspond the event to the proper day on the schedule. Resource R1 corresponds to Day 1, Resource R2 corresponds to Day 2, Resource R3 corresponds to Day 3, and so on... */
-
+     
     {
       id: "Latin II (MS) 517MS-1 (7/8 H)",
       start: DayPilot.Date.today().addHours(9.25),
@@ -196,8 +201,8 @@ window.onclick = function(event) {
       text: "<h3><b>Latin II (MS) 517MS-1 (7/8 H)</b></h3> Julia Larmore<br>2:10 PM - 3:10 PM",
       resource: "R2",
     },
-   
-   {
+      
+ {
       id: "Art History: The Art of the Renaissance 217-1 (B)",
       start: DayPilot.Date.today().addHours(10.25),
       end: DayPilot.Date.today().addHours(11.35),
@@ -237,7 +242,7 @@ window.onclick = function(event) {
       resource: "R7",
     },
       
-    {
+  {
       id: "History 7 407-1 (7/8 F)",
       start: DayPilot.Date.today().addHours(9.25),
       end: DayPilot.Date.today().addHours(10.25),
@@ -277,7 +282,7 @@ window.onclick = function(event) {
       resource: "R6",
     },
       
-      {
+    {
       id: "Latin II (MS) 517MS-3 (7/8 C)",
       start: DayPilot.Date.today().addHours(11.40),
       end: DayPilot.Date.today().addHours(12.35),
@@ -317,7 +322,7 @@ window.onclick = function(event) {
       resource: "R7",
     },
       
-      {
+   {
       id: "Latin I (MS) 507-3 (7/8 G)",
       start: DayPilot.Date.today().addHours(11.40),
       end: DayPilot.Date.today().addHours(12.35),
@@ -397,7 +402,7 @@ window.onclick = function(event) {
       resource: "R8",
     },
       
-  {
+ {
       id: "Latin I (MS) 507-1 (7/8 D)",
       start: DayPilot.Date.today().addHours(14.10),
       end: DayPilot.Date.today().addHours(15.10),
@@ -436,8 +441,8 @@ window.onclick = function(event) {
       text: "<h3><b>Latin I (MS) 507-1 (7/8 D)</b></h3> Eric Quinones<br>10:35 AM - 11:35 AM",
       resource: "R5",
     },
-   
-    {
+      
+  {
       id: "goLEAD 8 938-2 (7/8 A)",
       start: DayPilot.Date.today().addHours(8.15),
       end: DayPilot.Date.today().addHours(9.00),
@@ -481,7 +486,7 @@ window.onclick = function(event) {
       id: "MS Advisory 6V",
       start: DayPilot.Date.today().addHours(9.05),
       end: DayPilot.Date.today().addHours(9.20),
-      text: "<b>MS Advisory 6V </b>Elizabeth Grossi<br>9:05 AM - 9:20 AM",
+      text: "<b>MS Advisory 6V </b> Elizabeth Grossi<br>9:05 AM - 9:20 AM",
       resource: "R4",
     },
       
@@ -489,7 +494,7 @@ window.onclick = function(event) {
       id: "MS Advisory 6V",
       start: DayPilot.Date.today().addHours(9.05),
       end: DayPilot.Date.today().addHours(9.20),
-      text: "<b>MS Advisory 6V </b>Joseph Sills<br>9:05 AM - 9:20 AM",
+      text: "<b>MS Advisory 6V </b> Joseph Sills<br>9:05 AM - 9:20 AM",
       resource: "R8",
     },
       
@@ -497,7 +502,7 @@ window.onclick = function(event) {
       id: "MS Advisory 6V",
       start: DayPilot.Date.today().addHours(13.25),
       end: DayPilot.Date.today().addHours(14.05),
-      text: "<b>MS Advisory 6V (ADV)</b>Elizabeth Rossi<br>1:25 PM - 2:05 PM",
+      text: "<b>MS Advisory 6V (ADV)</b> Elizabeth Rossi<br>1:25 PM - 2:05 PM",
       resource: "R2",
     },
       
@@ -505,7 +510,7 @@ window.onclick = function(event) {
       id: "MS Collab 6V-1",
       start: DayPilot.Date.today().addHours(13.25),
       end: DayPilot.Date.today().addHours(14.05),
-      text: "<b>MS Collab 6V-1 (ADV)</b>John Byrne<br>1:25 PM - 2:05 PM",
+      text: "<b>MS Collab 6V-1 (ADV)</b> John Byrne<br>1:25 PM - 2:05 PM",
       resource: "R1",
     },
       
@@ -513,7 +518,7 @@ window.onclick = function(event) {
       id: "MS Collab 6V-3",
       start: DayPilot.Date.today().addHours(13.25),
       end: DayPilot.Date.today().addHours(14.05),
-      text: "<b>MS Collab 6V-3 (ADV)</b>John Byrne<br>1:25 PM - 2:05 PM",
+      text: "<b>MS Collab 6V-3 (ADV)</b> John Byrne<br>1:25 PM - 2:05 PM",
       resource: "R3",
     },
       
@@ -521,28 +526,28 @@ window.onclick = function(event) {
       id: "MS Collab 6V-3",
       start: DayPilot.Date.today().addHours(13.25),
       end: DayPilot.Date.today().addHours(14.05),
-      text: "<b>MS Collab 6V-3 (ADV)</b>Claire Brennn<br>1:25 PM - 2:05 PM",
+      text: "<b>MS Collab 6V-3 (ADV)</b> Claire Brennn<br>1:25 PM - 2:05 PM",
       resource: "R8",
+    },
+      
+          {
+      id: "MS Collab 6V-8",
+      start: DayPilot.Date.today().addHours(13.25),
+      end: DayPilot.Date.today().addHours(14.05),
+      text: "<b>MS Collab 6V-8 (ADV)</b> Elizabeth Grossi<br>1:25 PM - 2:05 PM",
+      resource: "R7",
     },
       
           {
       id: "MS Collab 6V-7",
       start: DayPilot.Date.today().addHours(13.25),
       end: DayPilot.Date.today().addHours(14.05),
-      text: "<b>MS Collab 6V-7 (ADV)</b>Conner Allen<br>1:25 PM - 2:05 PM",
+      text: "<b>MS Collab 6V-7 (ADV)</b> Conner Allen<br>1:25 PM - 2:05 PM",
       resource: "R6",
     },
-      
-          {
-      id: "MS Collab 6V-8",
-      start: DayPilot.Date.today().addHours(13.25),
-      end: DayPilot.Date.tloday().addHours(14.05),
-      text: "<b>MS Collab 6V-8 (ADV)</b>Elizabeth Grossi<br>1:25 PM - 2:05 PM",
-      resource: "R7",
-    },
-      
-  ];
+   
     
+  ];
   dp.columns = [
     {name: "Day 1", id: "R1"},
     {name: "Day 2", id: "R2"},
