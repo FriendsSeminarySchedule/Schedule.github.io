@@ -58,7 +58,8 @@
 .show {display: block;}
 
 .roomname {
-    text-align: center;
     font-family: "arial";
+    text-align: center;
+    text-decoration: underline;
 }
   </style>
