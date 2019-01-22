@@ -4,71 +4,17 @@
   <meta charset="utf-8"/>
   <title>Room Schedules</title>
 
-<!--Style Begin    
--->  
-    <style type="text/css">
-    p, body, td { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 10pt; }
-    body { padding-top: 10px; margin: 150px; margin-top: 0px; margin-bottom:0px; background-color: #ffffff; }
-    .space { margin: 10px 0px 10px 0px; }
-    .header { background: white; padding:0px 10px; color: black;}
-    .header h1 a { text-decoration: none; }
-    .header h1 { padding: 0px; margin: 0px;}
-    .main { padding: 10px; }
-    h4 { color: #D7282F; margin:0px; padding:0px;}
-      h3 {color: seagreen; font-size: 10px; margin: 0px;}
-    .dropbtn {
-    background-color: lightgrey;
-    color: black;
-    padding: 0px;
-    font-size: 10px;
-    border: solid, black, 2px;
-    cursor: pointer;
-}
+<link rel="stylesheet" type="text/css" href="CSS/FS_ScheduleStyle.css">
 
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #D7282F;
-    color: white;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: scroll;
-    z-index: 1;
-    font-size: 10px;
-    height: 600px;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 5px 5px;
-    text-decoration: none;
-    display: block;
-    scroll-behavior: auto;
-}
-
-.dropdown a:hover {background-color: #ddd;}
-
-.show {display: block;}
-  </style>
-<!--End Style
--->
     
   <!-- Begin Schedule Code -->
   <script src="js/daypilot/daypilot-all.min.js"></script>
 </head>
 <body>
 <div class="header">
-  <h1>Room Schedules</h1>
+  <h1 style="font-weight: 100";>Room Schedules</h1>
   <div><h2>Please select the name of the room from the dropdown menu below to view a schedule.</h2></div>
-    <div>Note: Upper School classes are highlighted in <b>red</b>, and Middle School classes are highlighted in <b>green</b>. The times on the left correspond with the block of the same color. When viewing on smaller screen sizes, you may need to scroll horizontally to see the full table.</div>
+    <div>Note: Upper School classes are highlighted in <b style= "color: #D7282F";>red</b>, and Middle School classes are highlighted in <b style= "color: seagreen";>green</b>.   When viewing on smaller screen sizes, you may need to scroll horizontally to see the full table.</div>
 
 <!--Dropdown Menu Begin
 -->
@@ -141,6 +87,10 @@
   </div>
 </div>
 </div>
+    
+    <div class="roomname">
+    <h2>Hunter Hall 509</h2>
+    </div>
  
 
 <script>
@@ -592,6 +542,7 @@ window.onclick = function(event) {
     },
       
   ];
+    
   dp.columns = [
     {name: "Day 1", id: "R1"},
     {name: "Day 2", id: "R2"},
