@@ -72,4 +72,7 @@
 .roomname a {
     text-decoration: none;
 }
+
+FS_ScheduleStyle_event_height { height: 25px; }
+
   </style>
